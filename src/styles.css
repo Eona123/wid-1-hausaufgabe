@@ -1,3 +1,41 @@
 .App {
   font-family: sans-serif;
 }
+.Bodyheader{
+    color: black; 
+    font-size: 25x; 
+    text-align: left; 
+    margin-top: 20px; 
+    margin-bottom: 20px;}
+.Body{
+    display: flex;
+    flex-direction: row;    
+    /* row = horizontal links nach rechts, column = vertical von oben nach unten*/
+    justify-content: space-between;
+    text-align: left;
+}
+.BodyBox{
+    border: 1px solid white;
+    background-color: white;
+    flex-direction: row;
+
+}
+.table{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    width: 1400px;
+}
+.SubboxHeader{
+  border: 10px whitesmoke; 
+  background-color: lightgray;
+
+}
+.SubboxImage{
+  display: block;
+  margin: auto;
+  height: 50px;
+}
+.subtable{
+    border: 1px ;
+    background-color: whitesmoke;
+}
