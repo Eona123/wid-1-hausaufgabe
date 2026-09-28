@@ -18,27 +18,34 @@ export default function App() {
               Fachhochschule Nordwestschweiz
             </h2>
           </tr>
+
           <tr>
             <img className="SubboxImage" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/FHNW_Logo.svg/500px-FHNW_Logo.svg.png" alt="FHNW Logo" />
           </tr>
+
           <table className="subtable">
+
             <tr>
-              <p className="Body"> 
                 <th><bold>Gründung</bold></th>
                 <td>1. Januar 2006</td>
-              </p>
             </tr>
+
             <tr>
-              <p className="Body">
                 <th><bold>Trägerschaft</bold></th>
-                <td>Kantone Aargau, Basel-Landschaft, Basel-Stadt, Solothurn</td>
-                </p>
+                <td><a href="https://de.wikipedia.org/wiki/Kanton_Aargau">Aargau</a><a>, </a>
+                <a href="https://de.wikipedia.org/wiki/Kanton_Basel-Landschaft">Basel-Landschaft</a><a>, </a>
+                <a href="https://de.wikipedia.org/wiki/Kanton_Basel-Stadt">Basel-Stadt</a><a>, </a>
+                <a href="https://de.wikipedia.org/wiki/Kanton_Solothurn">Solothurn</a>
+                </td>
             </tr>
+
             <tr>
-              <p className="Body">
                 <th><bold>Ort</bold></th>
-                <td>Windisch AG, Muttenz, Olten, Basel</td>
-              </p>
+                <td><a href="https://de.wikipedia.org/wiki/Windisch_AG">Windisch AG</a><a>, </a>
+                <a href="https://de.wikipedia.org/wiki/Muttenz">Muttenz</a><a>, </a>
+                <a href="https://de.wikipedia.org/wiki/Olten">Olten</a><a>, </a>
+                <a href="https://de.wikipedia.org/wiki/Basel">Basel</a>
+                </td>
             </tr>
           </table>
         </table>
